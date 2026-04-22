@@ -1,4 +1,4 @@
-public class Empregado {
+public abstract class Empregado {
 
     long matricula;
     String nome;
@@ -8,8 +8,5 @@ public class Empregado {
         this.nome = nome;
     }
 
-    public double calcularSalario(){
-
-        return 0;
-    }
+    public abstract double calcularSalario();
 }
